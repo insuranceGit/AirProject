@@ -5,14 +5,22 @@ export const Login = () => {
         <section className="h-screen flex justify-center">
             <div className="container px-6 py-12 h-full">
                 <div className="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
-                <div className="md:w-8/12 lg:w-6/12 mb-12 md:mb-0">
-                    <img
-                    src="ImgLogin.svg"
-                    className="w-full"
-                    alt="Phone image"
-                    />
-                </div>
+                    <div className="md:w-8/12 lg:w-6/12 mb-12 md:mb-0">
+                        <img
+                        src="ImgLogin.svg"
+                        className="w-full"
+                        alt="Login image"
+                        />
+                    </div>
                 <div className="md:w-8/12 lg:w-5/12 lg:ml-20">
+                    <div class="text-center">
+                    <img
+                        className="mx-auto w-48"
+                        src="Logo_AIR-fullcolor.png"
+                        alt="logo"
+                    />
+                    <h4 class="text-xl font-semibold mt-1 mb-12 pb-1">Somos AIR Seguros</h4>
+                    </div>
                     <form>
                     {/* <!-- Email input --> */}
                     <div className="mb-6">
@@ -39,13 +47,14 @@ export const Login = () => {
                             className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                             id="exampleCheck3"
                         />
-                        <label className="form-check-label inline-block text-gray-800" htmlFor="exampleCheck2"
+                        <label 
+                            className="form-check-label inline-block text-gray-800"
                             >Remember me</label
                         >
                         </div>
                         <a
-                        href="#!"
-                        className="text-blue-600 hover:text-blue-700 focus:text-blue-700 active:text-blue-800 duration-200 transition ease-in-out"
+                            href="#!"
+                            className="text-blue-600 hover:text-blue-700 focus:text-blue-700 active:text-blue-800 duration-200 transition ease-in-out"
                         >Forgot password?</a
                         >
                     </div>
