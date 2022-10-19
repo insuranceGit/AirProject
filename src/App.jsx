@@ -1,12 +1,12 @@
-import { Login } from "./components/Login"
-import { InformacionBasica} from "./components/InformacionBasica"
+
+import { AppRouter } from "./router/AppRouter"
 
 function App() {
 
   return (
     <>
-      <Login />
-      <InformacionBasica />    
+      <AppRouter />
+      
     </>
   )
 }
