@@ -2,4 +2,4 @@
 
 Para ejecutar de forma local usamos el comando:
 
->> yarn dev
+>> yarn dev 
